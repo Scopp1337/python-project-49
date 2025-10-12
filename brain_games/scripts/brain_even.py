@@ -35,7 +35,7 @@ def play_even_round(user_name):
         else:
             print(f"'{answer}' is wrong answer ;(. " +
                   f"Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {user_name}.")
+            print(f"Let's try again, {user_name}!")
             return
 
     print(f"Congratulations, {user_name}!")
