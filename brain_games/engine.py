@@ -1,7 +1,7 @@
 import prompt
 
 from brain_games.cli import greet, welcome_user
-from brain_games.games import calc, even, gcd, progression, prime
+from brain_games.games import calc, even, gcd, prime, progression
 
 
 def run_game(game_name):
