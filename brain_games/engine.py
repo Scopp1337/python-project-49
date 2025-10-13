@@ -1,7 +1,7 @@
 import prompt
 
 from brain_games.cli import greet, welcome_user
-from brain_games.games import calc, even
+from brain_games.games import calc, even, gcd
 
 
 def run_game(game_name):
@@ -15,6 +15,9 @@ def run_game(game_name):
         case 'calc':
             rules = calc.get_rules()
             generate_question = calc.generate_question
+        case 'gcd':
+            rules = gcd.get_rules()
+            generate_question = gcd.generate_question
 
     print(rules)
 
