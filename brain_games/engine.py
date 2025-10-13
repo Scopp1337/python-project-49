@@ -1,7 +1,7 @@
 import prompt
 
 from brain_games.cli import greet, welcome_user
-from brain_games.games import calc, even, gcd, progression
+from brain_games.games import calc, even, gcd, progression, prime
 
 
 def run_game(game_name):
@@ -21,6 +21,9 @@ def run_game(game_name):
         case 'progression':
             rules = progression.get_rules()
             generate_question_and_answer = progression.generate_question_and_answer
+        case 'prime':
+            rules = prime.get_rules()
+            generate_question_and_answer = prime.generate_question_and_answer
 
     print(rules)
 
