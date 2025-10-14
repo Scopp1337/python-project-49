@@ -19,7 +19,7 @@ def is_prime(n):
     return True
 
 
-def generate_question_and_answer():
+def get_question_and_answer():
     number = random.randint(1, 100)
     question = str(number)
     correct_answer = 'yes' if is_prime(number) else 'no'

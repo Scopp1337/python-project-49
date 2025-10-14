@@ -13,7 +13,7 @@ def generate_progression(start, step, length):
     return general_progression
 
 
-def generate_question_and_answer():
+def get_question_and_answer():
     length = random.randint(5, 10)
     start = random.randint(1, 100)
     step = random.randint(1, 10)
