@@ -21,3 +21,13 @@
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Scopp1337_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Scopp1337_python-project-49)
 
+[An example of a brain-calc game](https://asciinema.org/a/syHlfT91JTV2RtVvcyAnqYx8C)
+
+[An example of a brain-even game](https://asciinema.org/a/QfMT4QMOJspQyUzNBFczazzTG)
+
+[An example of a brain-gcd game](https://asciinema.org/a/m22IW8IDP4ycZ9KUfg7IJhrLF)
+
+[An example of a brain-prime game](https://asciinema.org/a/VnilICFQbVdulQIjirPeGecHE)
+
+[An example of a brain-progression game](https://asciinema.org/a/JXliSf8rYwmGCTV3cioY5Z984)
+
