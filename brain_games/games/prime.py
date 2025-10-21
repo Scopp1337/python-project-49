@@ -20,7 +20,7 @@ def is_prime(n):
 
 
 def get_question_and_answer():
-    number = random.randint(1, 100)
+    number = random.randint(1, 100) # NOSONAR
     question = str(number)
     correct_answer = 'yes' if is_prime(number) else 'no'
     return question, correct_answer

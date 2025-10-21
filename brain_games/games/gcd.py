@@ -6,8 +6,8 @@ def get_rules():
 
 
 def get_question_and_answer():
-    first_number = random.randint(1, 100)
-    second_number = random.randint(1, 100)
+    first_number = random.randint(1, 100) # NOSONAR
+    second_number = random.randint(1, 100) # NOSONAR
     question = f'{first_number} {second_number}'
     a, b = first_number, second_number
 
