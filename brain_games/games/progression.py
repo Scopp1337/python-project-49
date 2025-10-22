@@ -14,12 +14,12 @@ def generate_progression(start, step, length):
 
 
 def get_question_and_answer():
-    length = random.randint(5, 10) # NOSONAR
-    start = random.randint(1, 100) # NOSONAR
-    step = random.randint(1, 10) # NOSONAR
+    length = random.randint(5, 10)  # NOSONAR
+    start = random.randint(1, 100)  # NOSONAR
+    step = random.randint(1, 10)  # NOSONAR
     progression = generate_progression(start, step, length)
 
-    hidden_index = random.randint(0, length - 1) # NOSONAR
+    hidden_index = random.randint(0, length - 1)  # NOSONAR
     correct_answer = (progression[hidden_index])
     progression[hidden_index] = '..'
 

@@ -11,4 +11,4 @@ package-install:
 	uv tool install dist/hexlet_code-0.1.0-py3-none-any.whl
 
 lint:
-	uv run ruff check brain_games
+	uv run ruff check brain_games --fix
